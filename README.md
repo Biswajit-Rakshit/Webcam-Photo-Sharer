@@ -45,10 +45,12 @@ Libraries: OpenCV, requests, Kivy
 
 
 **Contribution**
+
 Contributions are welcome! Please feel free to fork the repository and submit a pull request.
 
 
 **Contact**
+
 For any queries, please contact Biswajit Rakshit at biswajitrakshit2003@gmail.com.
 
 Feel free to modify it further to suit your needs!
