@@ -28,15 +28,11 @@ Ensure you have Python 3.7+ installed, then run:
     python main.py
 
 
-
 **Technologies Used**
 
 Programming Language: Python
-
 Frontend: Kivy
-
 Cloud Integration: API for uploading and sharing images
-
 Libraries: OpenCV, requests, Kivy
 
 
@@ -49,12 +45,10 @@ Libraries: OpenCV, requests, Kivy
 
 
 **Contribution**
-
 Contributions are welcome! Please feel free to fork the repository and submit a pull request.
 
 
 **Contact**
-
 For any queries, please contact Biswajit Rakshit at biswajitrakshit2003@gmail.com.
 
 Feel free to modify it further to suit your needs!
