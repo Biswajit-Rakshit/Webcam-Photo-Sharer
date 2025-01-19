@@ -11,23 +11,25 @@ The **Webcam Photo Sharer App** is a Python-based application that allows users 
 ## Installation  
 
 1. **Clone the Repository**:  
-   ```bash  
+   ```
    git clone https://github.com/Biswajit-Rakshit/Webcam-Photo-Sharer.git  
    cd Webcam-Photo-Sharer
 
-2. Install Dependencies:
+2. **Install Dependencies**:
 Ensure you have Python 3.7+ installed, then run:
 
-pip install -r requirements.txt
+    ```
+    pip install -r requirements.txt
 
 
-3. Run the App:
+3. **Run the App**:
 
-python main.py
+    ```bash
+    python main.py
 
 
 
-Technologies Used
+**Technologies Used**
 
 Programming Language: Python
 
@@ -38,30 +40,21 @@ Cloud Integration: API for uploading and sharing images
 Libraries: OpenCV, requests, Kivy
 
 
-How It Works
+**How It Works**
 
 1. Launch the app and allow webcam access.
-
-
 2. Click the "Capture Image" button to take a picture.
-
-
 3. The captured image is uploaded to the cloud, and a sharable link is generated.
-
-
 4. Copy the link and share it with others.
 
 
-
-Contribution
+**Contribution**
 
 Contributions are welcome! Please feel free to fork the repository and submit a pull request.
 
-Contact
+
+**Contact**
 
 For any queries, please contact Biswajit Rakshit at biswajitrakshit2003@gmail.com.
 
 Feel free to modify it further to suit your needs!
-
-This version ensures consistency and readability in markdown formatting. Let me know if you'd like further refinements!
-
