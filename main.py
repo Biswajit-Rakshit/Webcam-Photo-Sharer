@@ -12,17 +12,20 @@ class CameraScreen(Screen):
     filepath = ''
     def start(self):
         """Starts camera and changes Button text"""
-        self.ids.camera.play = True
-        self.ids.camera_button.text = "Stop Camera"
-        self.ids.camera.button.opacity = 1
-        self.ids.camera.texture = self.ids.camera.texture
+        try:
+            self.ids.camera.play = True
+            self.ids.camera_button.text = "Stop Camera"
+            self.ids.camera.opacity = 1
+            self.ids.camera.texture = self.ids.camera.texture
+        except Exception as e:
+            print(f"Error starting camera: {e}")
 
     def stop(self):
         """Stops camera and changes Button text"""
         self.ids.camera.play = False
         self.ids.camera_button.text = "Start Camera"
         self.ids.camera.texture = None
-        self.ids.camera.button.opacity = 0
+        self.ids.camera.opacity = 0
 
     def capture(self):
         """Creates a filename with the current time and captures and saves a photo Image under the filename"""
@@ -46,14 +49,14 @@ class ImageScreen(Screen):
         """Copy link to the clipboard available for posting"""
         try:
             Clipboard.copy(self.url)
-        except:
+        except Exception as e:
             self.ids.link.text = self.link_message
 
     def open_link(self):
         """Open link with default browser"""
         try:
             webbrowser.open(self.url)
-        except:
+        except Exception as e:
             self.ids.link.text = self.link_message
 
 class RootWidget(ScreenManager):
